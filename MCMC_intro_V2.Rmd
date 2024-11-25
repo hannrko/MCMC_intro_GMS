@@ -58,7 +58,7 @@ The grandparent of MCMC algorithms. To run the algorithm, you need to make some 
  # let's look at this in R. let's assume that the propsoal distribution is Normal(mean = ?, sd = 1).
 A = 2
 B = 4
-
+plot.new()
 # pdf of A when mean is B is the same as the pdf of B when mean is A.
 dnorm(A,mean = B, sd = 1) == dnorm(B, mean = A, sd = 1 )
 
